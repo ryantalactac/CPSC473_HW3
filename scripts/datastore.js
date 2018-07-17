@@ -10,9 +10,7 @@
   DataStore.prototype.getAll = function () { return this.data; };
   DataStore.prototype.remove = function (key) { delete this.data[key]; };
   DataStore.prototype.removeAll = function() {
-    for (var data in this.data) {
-      if (this.data.hasOwnProperty(key)) { this.remove(key);  }
-    }
+
   };
   App.DataStore = DataStore;
   window.App = App;

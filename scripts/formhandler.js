@@ -12,7 +12,6 @@
     if (this.$formElement.length === 0) {
       throw new Error('Could not find element with selector: ' + selector);
     }
-
   }
 
   FormHandler.prototype.addSubmitHandler = function (fn) {
